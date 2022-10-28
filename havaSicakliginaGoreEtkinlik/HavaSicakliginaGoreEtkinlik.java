@@ -7,7 +7,7 @@ public class HavaSicakliginaGoreEtkinlik {
 
         Scanner input= new Scanner(System.in);
 
-        System.out.print("Lütfen hava sıcaklığını giriniz?: ");
+        System.out.print("LÃ¼tfen hava sÃ½caklÃ½Ä‘Ã½nÃ½ giriniz?: ");
         temp=input.nextInt();
 
         if (temp <= 5){
@@ -15,7 +15,7 @@ public class HavaSicakliginaGoreEtkinlik {
         } else if ((temp >5) && (temp <=15)) {
             System.out.print("Sinemaya gidebilirsiniz!");
         } else if (temp >= 25 ) {
-            System.out.print("Yüzmeye gidebilirsiniz!");
+            System.out.print("YÃ¼zmeye gidebilirsiniz!");
         } if (temp >10 && temp <=25) {
             System.out.println(" Veya piknik yapabilirsiniz!");
         }
