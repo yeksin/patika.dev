@@ -7,13 +7,13 @@ public class Taksimetre {
 
         Scanner input= new Scanner(System.in);
 
-        System.out.print("Yol uzunluðunu giriniz: ");
+        System.out.print("Yol uzunluÃ°unu giriniz: ");
         yol= input.nextInt();
 
         ucret= startprice+(tarife*yol);
         ucret= (ucret <20) ? 20 : ucret;
 
-        System.out.print("Ücretiniz: "+ucret);
+        System.out.print("Ãœcretiniz: "+ucret);
 
 
 
