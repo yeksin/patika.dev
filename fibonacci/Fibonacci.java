@@ -5,7 +5,7 @@ public class Fibonacci {
         int counter, sayi=0, onceki=1,sonraki=0;
         Scanner scan= new Scanner(System.in);
 
-        System.out.print("Lütfen Fibonacci sayısının eleman sayısını giriniz: ");
+        System.out.print("LÃ¼tfen Fibonacci sayÃ½sÃ½nÃ½n eleman sayÃ½sÃ½nÃ½ giriniz: ");
         counter= scan.nextInt();
 
         for (int i=1; i<counter; i++) {
