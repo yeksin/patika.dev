@@ -6,10 +6,10 @@ public class Kombinasyon {
         long nt=1, rt=1, kt=1;
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Kombinasyon formatý: C(n,r). Lütfen 'n' sayýsýný giriniz: ");
+        System.out.print("Kombinasyon formatÃ½: C(n,r). LÃ¼tfen 'n' sayÃ½sÃ½nÃ½ giriniz: ");
         n= scan.nextInt();
 
-        System.out.print("Lütfen 'r' sayýsýný giriniz: ");
+        System.out.print("LÃ¼tfen 'r' sayÃ½sÃ½nÃ½ giriniz: ");
         r= scan.nextInt();
 
         for (int i=1; n>=i; i++) {
