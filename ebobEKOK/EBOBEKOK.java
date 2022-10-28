@@ -4,10 +4,10 @@ public class EBOBEKOK {
     public static void main(String[] args) {
 
         Scanner scan=new Scanner(System.in);
-        System.out.print("Birinci sayıyı giriniz: ");
+        System.out.print("Birinci sayÃ½yÃ½ giriniz: ");
         int n1= scan.nextInt();
 
-        System.out.print("İkinci sayıyı giriniz: ");
+        System.out.print("Ãkinci sayÃ½yÃ½ giriniz: ");
         int n2= scan.nextInt();
 
         int i=2;
