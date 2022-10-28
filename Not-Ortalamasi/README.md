@@ -1,0 +1,2 @@
+# Not-Ortalamasi
+Not Ortalaması
