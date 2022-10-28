@@ -6,7 +6,7 @@ public class LeapYear {
         boolean leapYear;
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Lütfen yıl giriniz: ");
+        System.out.print("LÃ¼tfen yÃ½l giriniz: ");
         year = scan.nextInt();
 
         if (year%4==0) {
@@ -23,9 +23,9 @@ public class LeapYear {
             leapYear=false;
         }
         if (leapYear) {
-            System.out.println(year+" artık yıldır!");
+            System.out.println(year+" artÃ½k yÃ½ldÃ½r!");
         }else {
-            System.out.println(year+" artık yıl değildir!");
+            System.out.println(year+" artÃ½k yÃ½l deÃ°ildir!");
         }
     }
 }
