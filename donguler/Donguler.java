@@ -5,7 +5,7 @@ public class Donguler {
 
         int num,i;
         Scanner scan=new Scanner(System.in);
-        System.out.print("Sayý giriniz:" );
+        System.out.print("SayÃ½ giriniz:" );
         num= scan.nextInt();
 
         for (i=1; i<=num; i*=4) {
