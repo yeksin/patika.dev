@@ -5,7 +5,7 @@ public class TersUcgen {
         int value;
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Lütfen bir sayý giriniz: ");
+        System.out.print("LÃ¼tfen bir sayÃ½ giriniz: ");
         value= scan.nextInt();
 
         for (int i=0; i<=value; i++) {
