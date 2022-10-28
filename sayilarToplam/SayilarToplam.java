@@ -6,7 +6,7 @@ public class SayilarToplam {
 
         do {
             Scanner scan = new Scanner(System.in);
-            System.out.print("Lütfen sayý giriniz: ");
+            System.out.print("LÃ¼tfen sayÃ½ giriniz: ");
             num= scan.nextInt();
 
             if (num%4==0) {
