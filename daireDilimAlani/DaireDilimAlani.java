@@ -7,14 +7,14 @@ public class DaireDilimAlani {
 
         Scanner inp=new Scanner(System.in);
 
-        System.out.print("Yarýçapý giriniz: ");
+        System.out.print("YarÄ±Ã§apÄ± giriniz: ");
         r= inp.nextDouble();
 
-        System.out.print("Açýyý giriniz: ");
+        System.out.print("AÃ§Ä±yÄ± giriniz: ");
         angle=inp.nextDouble();
 
         alan= (pi*(r*r)*angle)/360;
-        System.out.println("Daire diliminin alaný: "+ alan);
+        System.out.println("Daire diliminin alanÄ±: "+ alan);
 
 
 
