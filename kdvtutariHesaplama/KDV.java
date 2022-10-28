@@ -7,7 +7,7 @@ public class KDV {
 
        Scanner inp= new Scanner(System.in);
 
-       System.out.print("Fiyatý giriniz:  ");
+       System.out.print("FiyatÃ½ giriniz:  ");
        para= inp.nextInt();
 
       double kdvli= para+(para*18/100);
@@ -15,7 +15,7 @@ public class KDV {
 
         System.out.println("Kdv'siz tutar:   "+  para);
         System.out.println("Kdv'li tutar:   "+kdvli);
-        System.out.println("Kdv tutarý:   "+ kdvT);
+        System.out.println("Kdv tutarÃ½:   "+ kdvT);
 
 
 
