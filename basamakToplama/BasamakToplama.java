@@ -5,7 +5,7 @@ public class BasamakToplama {
         int a,b,res=0;
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Lütfen sayýyý giriniz: ");
+        System.out.print("LÃ¼tfen sayÃ½yÃ½ giriniz: ");
         a = scan.nextInt();
 
         b=a;
