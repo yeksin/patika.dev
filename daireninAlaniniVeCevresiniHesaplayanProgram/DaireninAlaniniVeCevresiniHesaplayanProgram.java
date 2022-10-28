@@ -8,14 +8,14 @@ public class DaireninAlaniniVeCevresiniHesaplayanProgram {
 
         Scanner input=new Scanner(System.in);
 
-        System.out.print("Yarý çapý giriniz: ");
+        System.out.print("YarÄ± Ã§apÄ± giriniz: ");
         r= input.nextInt();
 
         cevre= Math.PI*r*2;
         alan=Math.PI*r*r;
 
-        System.out.println("Dairenin Çevrei: "+cevre);
-        System.out.println("Dairenin Alaný: "+alan);
+        System.out.println("Dairenin Ã‡evrei: "+cevre);
+        System.out.println("Dairenin AlanÄ±: "+alan);
 
 
     }
