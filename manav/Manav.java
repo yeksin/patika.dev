@@ -7,19 +7,19 @@ public class Manav {
 
     Scanner inp= new Scanner(System.in);
 
-        System.out.print("Alýnan ARMUT miktarý (KG): ");
+        System.out.print("AlÃ½nan ARMUT miktarÃ½ (KG): ");
         armut=inp.nextInt()*2.14;
 
-        System.out.print("Alýnan ELMA miktarý (KG): ");
+        System.out.print("AlÃ½nan ELMA miktarÃ½ (KG): ");
         elma=inp.nextInt()*3.67;
 
-        System.out.print("Alýnan DOMATES miktarý (KG): ");
+        System.out.print("AlÃ½nan DOMATES miktarÃ½ (KG): ");
         domates=inp.nextInt()*1.11;
 
-        System.out.print("Alýnan MUZ miktarý (KG): ");
+        System.out.print("AlÃ½nan MUZ miktarÃ½ (KG): ");
         muz=inp.nextInt()*0.95;
 
-        System.out.print("Alýnan PATLICAN miktarý (KG): ");
+        System.out.print("AlÃ½nan PATLICAN miktarÃ½ (KG): ");
         patlican=inp.nextInt()*5;
 
         toplam= patlican+muz+domates+elma+armut;
