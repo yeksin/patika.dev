@@ -6,7 +6,7 @@ public class Dongu {
         int num=0, count=0, total=0;
         Scanner scan= new Scanner(System.in);
 
-        System.out.print("Bir sayý giriniz: ");
+        System.out.print("Bir sayÃ½ giriniz: ");
         num= scan.nextInt();
 
         for ( int i=0; num>=i ; i++) {
