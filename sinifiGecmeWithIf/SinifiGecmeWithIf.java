@@ -6,7 +6,7 @@ public class SinifiGecmeWithIf {
 
         Scanner input= new Scanner(System.in);
 
-        System.out.print("Türkçe notunu giriniz: ");
+        System.out.print("TÃ¼rkÃ§e notunu giriniz: ");
         turkce=input.nextInt();
 
         System.out.print("Matematik notunu giriniz: ");
@@ -15,7 +15,7 @@ public class SinifiGecmeWithIf {
         System.out.print("Fizik notunu giriniz: ");
         fizik=input.nextInt();
 
-        System.out.print("Müzik notunu giriniz: ");
+        System.out.print("MÃ¼zik notunu giriniz: ");
         muzik=input.nextInt();
 
         System.out.print("Kimya notunu giriniz: ");
@@ -40,12 +40,12 @@ public class SinifiGecmeWithIf {
         }
         double avr= (kimya+muzik+fizik+mat+turkce)/n;
 
-        System.out.println("Ortalamanýz: "+avr);
+        System.out.println("OrtalamanÃ½z: "+avr);
 
         if (avr <55) {
-            System.out.println("Sýnýfta kaldýnýz!");
+            System.out.println("SÃ½nÃ½fta kaldÃ½nÃ½z!");
         }else {
-            System.out.println("Sýnýfý Geçtiniz!");
+            System.out.println("SÃ½nÃ½fÃ½ GeÃ§tiniz!");
         }
     }
 }
