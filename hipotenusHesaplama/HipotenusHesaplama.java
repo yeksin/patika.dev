@@ -7,15 +7,15 @@ public class HipotenusHesaplama {
 
         Scanner input= new Scanner(System.in);
 
-        System.out.print("1. Kenarý Giriniz: ");
+        System.out.print("1. KenarÃ½ Giriniz: ");
         a=input.nextDouble();
 
-        System.out.print("2. Kenarý Giriniz: ");
+        System.out.print("2. KenarÃ½ Giriniz: ");
         b=input.nextDouble();
 
         hipo= Math.sqrt((a*a)+(b*b));
 
-        System.out.print("Hipotenüs Uzunluðu: "+ hipo);
+        System.out.print("HipotenÃ¼s UzunluÃ°u: "+ hipo);
 
     }
 }
