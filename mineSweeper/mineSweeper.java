@@ -3,7 +3,7 @@ package mineSweeper;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MineSweeper {
+public class mineSweeper {
 
     String[][] gameZone;
     char[][] matrix;
@@ -11,9 +11,9 @@ public class MineSweeper {
     public void run() {
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Lütfen satýr giriniz: ");
+        System.out.print("LÃ¼tfen satÃ½r giriniz: ");
         int line = scan.nextInt();
-        System.out.print("Lütfen sütun giriniz: ");
+        System.out.print("LÃ¼tfen sÃ¼tun giriniz: ");
         int column = scan.nextInt();
 
         createField(line, column);
@@ -22,7 +22,7 @@ public class MineSweeper {
 
 
         int loopSize = (line * column) - ((line * column) / 4);
-        System.out.println("Mayýn Tarlasý Oyuna Hoþgeldiniz !");
+        System.out.println("MayÃ½n TarlasÃ½ Oyuna HoÃ¾geldiniz !");
         while (loopSize > 0) {
 
             for (int i = 0; i < line; i++) {
@@ -32,9 +32,9 @@ public class MineSweeper {
                 System.out.print("\n");
             }
             int sum = 0;
-            System.out.print("Satýr giriniz: ");
+            System.out.print("SatÃ½r giriniz: ");
             int line1 = (scan.nextInt()) - 1;
-            System.out.print("Sütun giriniz: ");
+            System.out.print("SÃ¼tun giriniz: ");
             int column2 = (scan.nextInt()) - 1;
             if (line >= line1 && column >= column2 && line1 >= 0 && column2 >= 0) {
                 if (matrix[line1][column2] == '*') {
@@ -77,14 +77,14 @@ public class MineSweeper {
                     gameZone[line1][column2] = String.valueOf(sum);
                 }
             } else {
-                System.out.println("Yanlýþ deðer girdiniz.");
+                System.out.println("YanlÃ½Ã¾ deÃ°er girdiniz.");
             }
 
             System.out.println("=======================");
             loopSize--;
 
             if (loopSize == 0) {
-                System.out.println("Oyunu Kazandýnýz !");
+                System.out.println("Oyunu KazandÃ½nÃ½z !");
 
                 for (char[] strings : matrix) {
                     for (char string : strings) {
@@ -126,7 +126,7 @@ public class MineSweeper {
 
     public void ShowField(int line, int column) {
 
-        System.out.println("Mayýnlarýn Konumu");
+        System.out.println("MayÃ½nlarÃ½n Konumu");
 
         for (char[] strings : matrix) {
             for (char string : strings) {
