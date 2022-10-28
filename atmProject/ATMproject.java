@@ -10,32 +10,32 @@ public class ATMproject {
         int balance=15000;
 
         while (right>0) {
-            System.out.print("Kullanıcı adı: ");
+            System.out.print("KullanÄ±cÄ± adÄ±: ");
             user= scan.nextLine();
-            System.out.print("Şifre: ");
+            System.out.print("Åifre: ");
             password= scan.nextLine();
 
             if (user.equals("yeksin") && password.equals("1235")) {
-                System.out.println("Giriş başarılı!");
+                System.out.println("GiriÅŸ baÅŸarÄ±lÄ±!");
 
                 do {
-                    System.out.print("1- Para yatırma \n2- Para çekme \n3- Bakiye sorgula \n4- Çıkış yap\nLütfen Yapmak istediğiniz işlemi seçiniz: ");
+                    System.out.print("1- Para yatÄ±rma \n2- Para Ã§ekme \n3- Bakiye sorgula \n4- Ã‡Ä±kÄ±ÅŸ yap\nLÃ¼tfen Yapmak istediÄŸiniz iÅŸlemi seÃ§iniz: ");
                     choice = scan.nextInt();
                     switch (choice) {
                         case 1:
-                            System.out.print("Yatıracağınız tutarı giriniz: ");
+                            System.out.print("YatÄ±racaÄŸÄ±nÄ±z tutarÄ± giriniz: ");
                             int yatirilacakTutar = scan.nextInt();
                             balance+=yatirilacakTutar;
-                            System.out.println("Paranızı para yatırma bölmesine yerleştiriniz!");
+                            System.out.println("ParanÄ±zÄ± para yatÄ±rma bÃ¶lmesine yerleÅŸtiriniz!");
                             System.out.println("Bakiyeniz: " + balance);
                             break;
                         case 2:
-                            System.out.print("Çekmek istediğiniz miktarı giriniz: ");
+                            System.out.print("Ã‡ekmek istediÄŸiniz miktarÄ± giriniz: ");
                             int cekim = scan.nextInt();
                             if (cekim > balance) {
                                 System.out.println("Yetersiz bakiye!");
                             }else {
-                                System.out.println("Lütfen paranızı para çekme bölmesinden alınız! ");
+                                System.out.println("LÃ¼tfen paranÄ±zÄ± para Ã§ekme bÃ¶lmesinden alÄ±nÄ±z! ");
                                 balance-=cekim;
                                 System.out.println("Kalan bakiyeniz: " + balance);
                             }
@@ -45,7 +45,7 @@ public class ATMproject {
                             break;
 
                         case 4:
-                            System.out.println("Çıkış yapılıyor. Kartınızı unutmayınız!");
+                            System.out.println("Ã‡Ä±kÄ±ÅŸ yapÄ±lÄ±yor. KartÄ±nÄ±zÄ± unutmayÄ±nÄ±z!");
                             right = 0;
                             break;
                     }
@@ -53,10 +53,10 @@ public class ATMproject {
             } else {
                 right--;
                 if (right==0) {
-                    System.out.println("Kartınız bloke olmuştur. Bankanızla iletişime geçiniz!");
+                    System.out.println("KartÄ±nÄ±z bloke olmuÅŸtur. BankanÄ±zla iletiÅŸime geÃ§iniz!");
                 }else {
-                    System.out.println("Kalan hakkınız: "+right);
-                    System.out.println("Hatalı kullanıcı adı veya şifre! Tekrar deneyiniz. ");
+                    System.out.println("Kalan hakkÄ±nÄ±z: "+right);
+                    System.out.println("HatalÄ± kullanÄ±cÄ± adÄ± veya ÅŸifre! Tekrar deneyiniz. ");
                 }
             }
         }
