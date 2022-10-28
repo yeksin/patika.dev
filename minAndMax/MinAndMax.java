@@ -6,11 +6,11 @@ public class MinAndMax {
         int counter,num,min=1,max=1;
         Scanner scan =new Scanner(System.in);
 
-        System.out.print("Kaç tane sayý gireceksiniz: ");
+        System.out.print("KaÃ§ tane sayÃ½ gireceksiniz: ");
         counter= scan.nextInt();
 
         for (int i=1; i<=counter; i++) {
-            System.out.print(i+". sayýyý giriniz: ");
+            System.out.print(i+". sayÃ½yÃ½ giriniz: ");
             num= scan.nextInt();
 
             if (counter==1) {
@@ -23,7 +23,7 @@ public class MinAndMax {
             if (num<min)
                 min=num;
         }
-        System.out.println("En küçük sayý: "+min);
-        System.out.println("En büyük sayý: "+max);
+        System.out.println("En kÃ¼Ã§Ã¼k sayÃ½: "+min);
+        System.out.println("En bÃ¼yÃ¼k sayÃ½: "+max);
     }
 }
