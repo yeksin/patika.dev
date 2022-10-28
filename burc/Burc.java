@@ -7,48 +7,48 @@ public class Burc {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("1-Ocak \n2-Þubat \n3-Mart \n4-Nisan \n5-Mayýs \n6-Haziran " +
-                "\n7-Temmuz \n8-Aðustos \n9-Eylül \n10-Ekim \n11-Kasým \n12-Aralýk \nDoðduðunuz ayý seçiniz: ");
+        System.out.print("1-Ocak \n2-Åžubat \n3-Mart \n4-Nisan \n5-MayÄ±s \n6-Haziran " +
+                "\n7-Temmuz \n8-AÄŸustos \n9-EylÃ¼l \n10-Ekim \n11-KasÄ±m \n12-AralÄ±k \nDoÄŸduÄŸunuz ayÄ± seÃ§iniz: ");
         ay= scan.nextInt();
 
-        System.out.print("Doðduðunuz günü giriniz: ");
+        System.out.print("DoÄŸduÄŸunuz gÃ¼nÃ¼ giriniz: ");
         gun = scan.nextInt();
 
         if (ay==1 && gun<=21) {
-            System.out.println("Burcunuz Oðlak");
+            System.out.println("Burcunuz OÄŸlak");
         }else if (ay==1 && gun>=21){
             System.out.println("Burcunuz Kova");
         }
         if (ay==2 && gun <= 19){
             System.out.println( "Burcunuz Kova");
         }else if (ay==2 && gun >= 19){
-            System.out.println("Burcunuz Balýk");
+            System.out.println("Burcunuz BalÄ±k");
         }if (ay==3 && gun <=20){
-            System.out.println("Burcunuz Balýk");
+            System.out.println("Burcunuz BalÄ±k");
         }else if (ay==3 && gun >=20){
-            System.out.println("Burcunuz Koç");
+            System.out.println("Burcunuz KoÃ§");
         }if (ay==4 && gun <=20) {
-            System.out.println("Burcunuz Koç");
+            System.out.println("Burcunuz KoÃ§");
         }else if (ay==4 && gun >=20){
-            System.out.println("Burcunuz Boða");
+            System.out.println("Burcunuz BoÄŸa");
         }if (ay==5 && gun<=21){
-            System.out.println("Burcunuz Boða");
+            System.out.println("Burcunuz BoÄŸa");
         }else if (ay==5 && gun>=21){
-            System.out.println("Burcunuz Ýkizler");
+            System.out.println("Burcunuz Ä°kizler");
         }if (ay==6 && gun <=22){
-            System.out.println("Burcunuz Ýkizler");
+            System.out.println("Burcunuz Ä°kizler");
         }else if (ay==6 && gun >=22){
-            System.out.println("Burcunuz Yengeç");
+            System.out.println("Burcunuz YengeÃ§");
         }if (ay==7 && gun <=22){
-            System.out.println("Burcunuz Yengeç");
+            System.out.println("Burcunuz YengeÃ§");
         }else if (ay==7 && gun >=22){
             System.out.println("Burcunuz Aslan");
         }if (ay==8 && gun<=22){
             System.out.println("Burcunuz Aslan");
         }else if (ay==8 && gun>=22){
-            System.out.println("Burcunuz Baþak");
+            System.out.println("Burcunuz BaÅŸak");
         }if (ay==9 && gun<=22){
-            System.out.println("Burcunuz Baþak");
+            System.out.println("Burcunuz BaÅŸak");
         }else if (ay==9 && gun>=22){
             System.out.println("Burcunuz Terazi");
         }if (ay==10 && gun<=22){
@@ -62,7 +62,7 @@ public class Burc {
         }if (ay==12 && gun<=21){
             System.out.println("Burcunuz Yay");
         }else if (ay==12 && gun>=21){
-            System.out.println("Burcunuz Oðlak");
+            System.out.println("Burcunuz OÄŸlak");
         }
 
     }
