@@ -7,7 +7,7 @@ public class NotOrtalamasi {
 
         Scanner input= new Scanner(System.in);
 
-        System.out.print("Türkçe notunuzu giriniz:  ");
+        System.out.print("TÃ¼rkÃ§e notunuzu giriniz:  ");
         turkce= input.nextInt();
 
         System.out.print("Matematik notunuzu giriniz:  ");
@@ -22,7 +22,7 @@ public class NotOrtalamasi {
         System.out.print("Kimya notunuzu giriniz: ");
         kimya=input.nextInt();
 
-        System.out.print("Müzik notunuzu giriniz: ");
+        System.out.print("MÃ¼zik notunuzu giriniz: ");
         muzik=input.nextInt();
 
         int toplam = turkce+ mat +fizik+tarih+kimya+muzik;
@@ -32,10 +32,10 @@ public class NotOrtalamasi {
 
 
 
-        String cevap= gecti ? "  Sýnýfý Geçti" : "  Sýnýfta Kaldý";
+        String cevap= gecti ? "  SÃ½nÃ½fÃ½ GeÃ§ti" : "  SÃ½nÃ½fta KaldÃ½";
 
 
-        System.out.println("Ortalamanýz :  " + sonuc + cevap);
+        System.out.println("OrtalamanÃ½z :  " + sonuc + cevap);
 
 
 
