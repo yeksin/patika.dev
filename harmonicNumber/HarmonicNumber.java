@@ -5,7 +5,7 @@ public class HarmonicNumber {
         int num;
         double result=0;
         Scanner scan= new Scanner(System.in);
-        System.out.print("Lüften sayýyý giriniz: ");
+        System.out.print("LÃ¼ften sayÃ½yÃ½ giriniz: ");
         num= scan.nextInt();
 
         for (double n=1; n<=num ; n++ ) {
