@@ -6,29 +6,29 @@ public class HesapMakinasi {
         int n1, n2,islem;
         Scanner inp= new Scanner(System.in);
 
-        System.out.print("İlk sayıyı giriniz: ");
+        System.out.print("Ãlk sayÃ½yÃ½ giriniz: ");
         n1= inp.nextInt();
-        System.out.print("İkinci sayıyı giriniz: ");
+        System.out.print("Ãkinci sayÃ½yÃ½ giriniz: ");
         n2= inp.nextInt();
-        System.out.println("Yapmak istediğiniz işlemi seçiniz: \n1-Toplama \n2-Çıkarma \n3-Bölme \n4-Çarpma ");
+        System.out.println("Yapmak istediÄ‘iniz iÅ£lemi seÃ§iniz: \n1-Toplama \n2-Ã‡Ã½karma \n3-BÃ¶lme \n4-Ã‡arpma ");
         islem=inp.nextInt();
 
         switch (islem) {
             case 1:
-                System.out.println("Sonuç: " + (n1 + n2));
+                System.out.println("SonuÃ§: " + (n1 + n2));
                 break;
             case 2:
-                System.out.println("Sonuç: " + (n1 - n2));
+                System.out.println("SonuÃ§: " + (n1 - n2));
                 break;
             case 3:
                 if (n2==0) {
-                    System.out.println("Bir sayı 0'a bölünemez!");
+                    System.out.println("Bir sayÃ½ 0'a bÃ¶lÃ¼nemez!");
                 }else {
-                    System.out.println("Sonuç: " + (n1 / n2));
+                    System.out.println("SonuÃ§: " + (n1 / n2));
                 }
                 break;
             case 4:
-                System.out.println("Sonuç: " + (n1 * n2));
+                System.out.println("SonuÃ§: " + (n1 * n2));
                 break;
 
         }
