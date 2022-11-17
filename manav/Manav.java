@@ -2,28 +2,53 @@ import java.util.Scanner;
 
 public class Manav {
     public static void main(String[] args) {
+        String sınır = "Yanlış tartım yaptınız! Ürünün kilosu '0' ve '50' kg değerleri arasında olmak zorundadır!";
+        double armut = 2.14,
+                elma = 3.67,
+                domates = 1.11,
+                muz = 0.95,
+                patlican = 5,
+                toplam;
 
-    double armut=2.14,elma=3.67,domates=1.11,muz=0.95,patlican=5,toplam;
+        Scanner scan = new Scanner(System.in);
 
-    Scanner inp= new Scanner(System.in);
+        System.out.print("Armut miktarı(kg): ");
+        armut *= scan.nextInt();
+        if (armut < 0 || armut > 50) {
+            armut = 0;
+            System.out.println(sınır);
+        }
 
-        System.out.print("Alýnan ARMUT miktarý (KG): ");
-        armut=inp.nextInt()*2.14;
+        System.out.print("Elma miktarı(kg): ");
+        elma *= scan.nextInt();
+        if (elma < 0 || elma > 50) {
+            elma = 0;
+            System.out.println(sınır);
+        }
 
-        System.out.print("Alýnan ELMA miktarý (KG): ");
-        elma=inp.nextInt()*3.67;
+        System.out.print("Domates miktarı(kg): ");
+        domates *= scan.nextInt();
+        if (domates < 0 || domates > 50) {
+            domates = 0;
+            System.out.println(sınır);
+        }
 
-        System.out.print("Alýnan DOMATES miktarý (KG): ");
-        domates=inp.nextInt()*1.11;
+        System.out.print("Muz miktarı(kg): ");
+        muz *= scan.nextInt();
+        if (muz < 0 || muz > 50) {
+            muz = 0;
+            System.out.println(sınır);
+        }
 
-        System.out.print("Alýnan MUZ miktarý (KG): ");
-        muz=inp.nextInt()*0.95;
+        System.out.print("Patlıcan miktarı(kg): ");
+        patlican *= scan.nextInt();
+        if (patlican < 0 || patlican > 50) {
+            patlican = 0;
+            System.out.println(sınır);
+        }
 
-        System.out.print("Alýnan PATLICAN miktarý (KG): ");
-        patlican=inp.nextInt()*5;
+        toplam = patlican + muz + domates + elma + armut;
 
-        toplam= patlican+muz+domates+elma+armut;
-
-        System.out.print("Toplam Tutar: "+ toplam);
+        System.out.print("Toplam Tutar: " + toplam);
     }
 }
