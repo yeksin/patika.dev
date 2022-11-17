@@ -10,7 +10,7 @@ public class arrayOrder {
         int[] list = new int[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.print("Dizinin " + (i + 1) + ". elemanını giriniz: ");
+            System.out.print("Dizinin " + (i + 1) + ". elemanÄ±nÄ± giriniz: ");
             int number = scan.nextInt();
             list[i] = number;
         }
