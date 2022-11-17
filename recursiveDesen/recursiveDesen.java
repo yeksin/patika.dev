@@ -11,7 +11,7 @@ public class recursiveDesen {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Bir sayý giriniz: ");
+        System.out.print("Bir sayÄ± giriniz: ");
         int x = scan.nextInt();
         desen(x);
     }
