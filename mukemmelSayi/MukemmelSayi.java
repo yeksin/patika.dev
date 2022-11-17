@@ -5,7 +5,7 @@ import java.util.Scanner;
         int a, toplam=0;
         Scanner scan=new Scanner(System.in);
 
-        System.out.print("Lütfen bir sayý giriniz: ");
+        System.out.print("Lütfen bir sayı giriniz: ");
         a= scan.nextInt();
 
         for (int n=1; n<a; n++) {
@@ -14,9 +14,9 @@ import java.util.Scanner;
             }
         }
         if (toplam==a) {
-            System.out.println(a+" bir mükemmel sayýdýr!");
+            System.out.println(a+" bir mükemmel sayıdır!");
         }else {
-            System.out.println(a+" bir mükemmel sayý deðildir!");
+            System.out.println(a+" bir mükemmel sayı değildir!");
         }
     }
 }
