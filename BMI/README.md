@@ -1,0 +1,1 @@
+Bu yazılım patika.dev java101 eğitiminde gösterilen derse en yakın biçimde hazırlanmıştır, sadece kilonun hangi değer aralığında yer aldığına dayanarak zayıf, ideal, şişman, obez, aşırı obez ayrımı eklenmiştir. İstenirse her seferinde bütün değer aralıkları ve karşılıkları ekrana yazdırılabilir.
