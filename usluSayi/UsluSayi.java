@@ -5,10 +5,10 @@ public class UsluSayi {
         int m,n,i;
 
         Scanner scan= new Scanner(System.in);
-        System.out.print("Üssünü almak istediðiniz sayýyý giriniz: ");
+        System.out.print("Üssünü almak istediğiniz sayıyı giriniz: ");
         m= scan.nextInt();
 
-        System.out.print("Üs sayýsýný giriniz: ");
+        System.out.print("Üs sayısını giriniz: ");
         n= scan.nextInt();
 
         for (i=1; n>=1; i*=m) {
